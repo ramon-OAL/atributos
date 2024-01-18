@@ -1,0 +1,27 @@
+p[class^="Azul"]{
+	color: blue;
+	background:lightyellow;
+	
+}
+img[class="borde-A"]{
+	border: 6px solid black;
+
+}
+^p[class~=rojo]{
+	color:rojo;
+	font-size: 2em;
+}
+
+img[src$=jpg]{
+	width:400px;
+	height:300px;
+	border:5px solid black;
+}
+p[class="amarillo"]{
+	background:black;
+	color:yellowgreen;
+}
+li[a|="item"]{
+	font-size: 8em;
+	color:green;
+}
